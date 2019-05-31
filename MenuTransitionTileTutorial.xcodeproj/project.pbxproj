@@ -18,6 +18,7 @@
 		719F3A3422A1BFB500F4A1AF /* MenuTransitionTileTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F3A3322A1BFB500F4A1AF /* MenuTransitionTileTutorialTests.swift */; };
 		719F3A3F22A1BFB500F4A1AF /* MenuTransitionTileTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F3A3E22A1BFB500F4A1AF /* MenuTransitionTileTutorialUITests.swift */; };
 		719F3A4D22A1C80900F4A1AF /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F3A4C22A1C80900F4A1AF /* MenuScene.swift */; };
+		719F3A4F22A1D43200F4A1AF /* BeachTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 719F3A4E22A1D43200F4A1AF /* BeachTileSet.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		719F3A3E22A1BFB500F4A1AF /* MenuTransitionTileTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTransitionTileTutorialUITests.swift; sourceTree = "<group>"; };
 		719F3A4022A1BFB500F4A1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719F3A4C22A1C80900F4A1AF /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		719F3A4E22A1D43200F4A1AF /* BeachTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BeachTileSet.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				719F3A2722A1BFB500F4A1AF /* LaunchScreen.storyboard */,
 				719F3A2A22A1BFB500F4A1AF /* Info.plist */,
 				719F3A4C22A1C80900F4A1AF /* MenuScene.swift */,
+				719F3A4E22A1D43200F4A1AF /* BeachTileSet.sks */,
 			);
 			path = MenuTransitionTileTutorial;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			files = (
 				719F3A2422A1BFB400F4A1AF /* Main.storyboard in Resources */,
 				719F3A1B22A1BFB400F4A1AF /* GameScene.sks in Resources */,
+				719F3A4F22A1D43200F4A1AF /* BeachTileSet.sks in Resources */,
 				719F3A2622A1BFB500F4A1AF /* Assets.xcassets in Resources */,
 				719F3A2922A1BFB500F4A1AF /* LaunchScreen.storyboard in Resources */,
 				719F3A1D22A1BFB400F4A1AF /* Actions.sks in Resources */,
