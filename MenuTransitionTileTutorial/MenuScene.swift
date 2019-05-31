@@ -34,4 +34,18 @@ class MenuScene: SKScene {
         addChild(startGameText)
         
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        // made two constants stored GameScene and Transition
+        let scene = SKScene(fileNamed: "GameScene")!
+        let transition = SKTransition.fade(withDuration: 0.2)
+        
+        // Ensuring the aspect ratio is proper
+        scene.scaleMode = .aspectFill
+        
+        // Presenting the scene
+        self.view?.presentScene(scene, transition: transition)
+        
+    }
 }
