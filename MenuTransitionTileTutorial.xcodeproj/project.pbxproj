@@ -17,6 +17,7 @@
 		719F3A2922A1BFB500F4A1AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719F3A2722A1BFB500F4A1AF /* LaunchScreen.storyboard */; };
 		719F3A3422A1BFB500F4A1AF /* MenuTransitionTileTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F3A3322A1BFB500F4A1AF /* MenuTransitionTileTutorialTests.swift */; };
 		719F3A3F22A1BFB500F4A1AF /* MenuTransitionTileTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F3A3E22A1BFB500F4A1AF /* MenuTransitionTileTutorialUITests.swift */; };
+		719F3A4D22A1C80900F4A1AF /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F3A4C22A1C80900F4A1AF /* MenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		719F3A3A22A1BFB500F4A1AF /* MenuTransitionTileTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuTransitionTileTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		719F3A3E22A1BFB500F4A1AF /* MenuTransitionTileTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTransitionTileTutorialUITests.swift; sourceTree = "<group>"; };
 		719F3A4022A1BFB500F4A1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719F3A4C22A1C80900F4A1AF /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				719F3A2522A1BFB500F4A1AF /* Assets.xcassets */,
 				719F3A2722A1BFB500F4A1AF /* LaunchScreen.storyboard */,
 				719F3A2A22A1BFB500F4A1AF /* Info.plist */,
+				719F3A4C22A1C80900F4A1AF /* MenuScene.swift */,
 			);
 			path = MenuTransitionTileTutorial;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				719F3A1F22A1BFB400F4A1AF /* GameScene.swift in Sources */,
+				719F3A4D22A1C80900F4A1AF /* MenuScene.swift in Sources */,
 				719F3A2122A1BFB400F4A1AF /* GameViewController.swift in Sources */,
 				719F3A1922A1BFB400F4A1AF /* AppDelegate.swift in Sources */,
 			);
