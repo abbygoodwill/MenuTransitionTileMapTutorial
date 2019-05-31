@@ -21,8 +21,8 @@ class MenuScene: SKScene {
         
         super.init(size: size)
         
-        // Setting the background color to orange
-        backgroundColor = SKColor.orange
+        // Setting the background color to purple
+        backgroundColor = SKColor.purple
         
         let startGameText = SKLabelNode(fontNamed: "Baskerville")
         startGameText.text = "Tap to Play"
